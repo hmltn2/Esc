@@ -1,0 +1,16 @@
+{
+  "name": "Add Esc Key Obsidian Plug-In",
+  "version": "0.0.0",
+  "description": "A plug-in whose sole purpose is to enable the inputting of an \"Esc\" control code into Obsidian's runtime, so that users on iOS soft keyboards can use Vim keybindings (and similar) more normally."
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["obsidian", "plug-in", "vim", "esc", "ios"],
+  "author": "Julius Karl Hamilton",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.4.5"
+  }
+}
